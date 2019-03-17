@@ -1,0 +1,50 @@
+/***** footer style *****/
+footer {
+    text-align: right;
+    padding-top:20px;
+    padding-bottom: 20px;
+    .list-inline {
+        display: inline-block;
+        margin-bottom: 0;
+        li {
+            margin:0 !important;
+            a {
+                font-size: 16px;
+                color: rgb(119, 119, 119);
+                text-transform: uppercase;
+                line-height: 1.2;
+                font-family: "Avenir-regular";
+                text-decoration: none !important;
+                padding-left:10px;
+                transition: color 0.5s ease;
+                &::after{
+                    content:"|";
+                    color: rgb(119, 119, 119);
+                    font-size: 16px;
+                    margin-left: 10px;
+                    vertical-align: 3px;
+                }
+
+            }
+           &:last-child{
+               a{
+                   &::after{
+                       content:"";
+                   }
+               }
+           } 
+           &:hover{
+               a{
+                   color:#de6b1e;
+                   &::after{
+                    color:#de6b1e;   
+                   }
+               }
+           }
+        }
+    }
+    img{
+        float: left;
+        max-width: 180px;
+    }
+}

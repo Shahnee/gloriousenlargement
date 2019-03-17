@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+.payment{
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+@media(min-width:991px){
+    .payment .container{
+        max-width: 893px;
+    }
+}
+.payment .page-logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.payment .page-logo img{
+    max-width: 316px;
+}
+.payment .verify-prag{
+    margin-top:28px;
+}
+.payment .verify-prag h3{
+    font-weight: 300;
+    font-size: 1.875rem;
+    margin: 0 0 0.75em;
+    color:#333333;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.payment .verify-prag p{
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#333333;
+    margin-bottom: 1.5em;
+
+}
+.payment-details{
+    border: 5px solid rgb(217, 217, 217) !important;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.payment-details .credit-title{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom:1px solid rgba(51, 51, 51, 0.14);
+    margin-bottom: 10px;
+}
+.payment-details .credit-title img{
+    width: 100px;
+    float: right;
+    margin-top: 5px;
+}
+.payment .instructor{
+    margin-bottom:15px;
+    float: left;
+    width: 100%;
+}
+.payment .instructor img{
+    width: 81px;
+    margin-top: 4px !important;
+    margin-bottom: 10px !important;
+    border-radius: 50%;
+    float: left;
+}
+.payment .instructor .inst-details{
+    padding-left: 15px;
+    font-size: 14px;
+    width: calc(100% - 81px);
+    padding-top: 12px;
+    display: inline-block;
+}
+.payment small{
+    font-size: 11px;
+    display: block;
+    margin-bottom: 15px;
+}
+.form-billing-det img {
+    max-width: 35%;
+    margin: 5px 0;
+}
+
+#checkout_submit:hover {
+    background-color: #6a8733 !important;
+}
+
+#checkout_submit {
+    transition: all .15s ease-out, border-color ease-out .25s;
+
+}
+div.zip-form{
+    width: 165px;
+}
