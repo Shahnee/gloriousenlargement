@@ -25,11 +25,37 @@ class PaymentController extends Controller {
             $add_user->email = $request->email;
             $add_user->save();
         }
-        $stripeToken = $request['stripeToken'];
-        \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+        if (!$add_user->subscribed('monthly_plan')) {
+            $stripeToken = $request['stripeToken'];
+            \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+            try {
+                $add_user->newSubscription('monthly_plan', 'monthly_plan')->create($stripeToken);
+            } catch (\Stripe\Error\Card $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (\Stripe\Error\RateLimit $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (\Stripe\Error\InvalidRequest $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (\Stripe\Error\Authentication $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (\Stripe\Error\ApiConnection $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (\Stripe\Error\Base $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            } catch (Exception $e) {
+                Session::flash('error', $e->getMessage());
+                return Redirect::to(URL::previous());
+            }
+        }
         try {
-            $add_user->newSubscription('monthly_plan', 'monthly_plan')->create($stripeToken);
-            Session::flash('success', 'Subscription add successfully');
+            $add_user->charge(700);
+            Session::flash('success', 'Charged successfully');
             return Redirect::to(URL::previous());
         } catch (\Stripe\Error\Card $e) {
             Session::flash('error', $e->getMessage());
