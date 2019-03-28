@@ -1,0 +1,244 @@
+@media (max-width: 1199px) {
+    p {
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 43px;
+        line-height: 0.9em;
+    }
+
+    h4 {
+        font-size: 38px;
+        line-height: 0.9em;
+    }
+
+    h5 {
+        font-size: 26px;
+        line-height: 0.9em;
+    }
+
+    .row > div > img {
+        width: 100%;
+    }
+
+    #section-8 .block-5 h3 {
+        font-size: 46px;
+    }
+
+    #section-8 .block-5 h4 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 991px) {
+    p {
+        line-height: 1.1em;
+    }
+
+    .has-border, .phase-stripe {
+        width: auto;
+    }
+
+    .has-no-border.with-top-border {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .stripe {
+        width: auto;
+    }
+
+    .bonus-stripe h3, .phase-stripe h3 {
+        font-size: 46px;
+    }
+
+    .bonus-stripe h3 span {
+        font-size: 32px;
+    }
+
+    .bonus-stripe h4, .phase-stripe h4 {
+        font-size: 32px;
+    }
+
+    #section-1 .block-1 {
+        padding-right: 1em;
+    }
+
+    #section-6 .block-5 h3 {
+        padding-right: 40%;
+        padding-left: 5px;
+    }
+
+    #section-6 .block-5 img {
+        right: 5px;
+        width: 50%
+    }
+
+    #section-1 .block-3 h3, #section-2 .block-1 h3, #section-2 .block-3 h3, #section-2 .block-6 h3,
+    #section-3 .block-3 h3, #section-4 .block-1 h3, #section-4 .block-3 h3, #section-4 .block-5 h3,
+    #section-5 .block-1 h3, #section-5 .block-4 h3, #section-6 .block-1 h3, #section-7 .block-2 h3,
+    #section-7 .block-4 h3, #section-7 .block-6 h3, #section-7 .block-8 h3, #section-8 .block-1 h3,
+    #section-8 .block-3 h3, #section-9 .block-1 h3, #section-9 .block-3 h3, #section-11 .block-4 h3 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #section-7 .block-3 {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 767px;
+        padding-right: 0;
+        padding-left: 0;
+        overflow: hidden;
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    h4 {
+        font-size: 31px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    .has-no-border.with-top-border {
+        padding-top: 100px;
+    }
+
+    .block-buy-books .price-was {
+        font-size: 30px;
+    }
+
+    .block-buy-books .price-now {
+        font-size: 56px;
+        width: 105px;
+        height: 105px;
+        line-height: 105px;
+    }
+
+    section > .stripe:first-child {
+        margin-bottom: -180px;
+    }
+
+    .bonus-stripe h3, .phase-stripe h3 {
+        font-size: 39px;
+    }
+
+    .bonus-stripe h3 span {
+        font-size: 27px;
+    }
+
+    .bonus-stripe h4, .phase-stripe h4 {
+        font-size: 27px;
+    }
+
+    #section-3 .block-1 {
+        margin-bottom: -100px;
+    }
+
+    #section-3 .block-5 img {
+        height: 440px;
+    }
+
+    #section-8 .block-5 h3 {
+        font-size: 36px;
+    }
+
+    #section-8 .block-5 h4 {
+        font-size: 26px;
+    }
+
+    #section-10 .block-1 img {
+        right: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .block-buy-books .price {
+        top: -10%;
+        left: 75%;
+    }
+
+    #section-3 .block-5 h3, #section-6 .block-5 h3 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #section-1 .block-1 {
+        margin-bottom: -25px;
+        background-position: left bottom;
+    }
+
+    #section-1 .block-3 h3 {
+        width: auto;
+    }
+
+    #section-2 .block-5 div {
+        width: auto;
+    }
+
+    #section-10 .block-3 img, #section-10 .block-5 img, #section-10 .block-7 img {
+        width: 75%;
+        max-width: 279px;
+        margin-left: -15%;
+    }
+
+    #section-10 .block-5 img {
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .block-buy-books .price-was {
+        font-size: 28px;
+    }
+
+    .block-buy-books .price-now {
+        font-size: 42px;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+}
+
+@media (max-width: 400px) {
+    .block-buy-books .price {
+        top: -20%;
+        left: 75%;
+    }
+}
+
+@media (max-width: 350px) {
+    .block-buy-books .price {
+        top: -35%;
+        left: 75%;
+    }
+
+    #section-1 .block-1 {
+        padding-left: 1em;
+    }
+
+    #section-1 .block-1 h4 {
+        font-size: 28px;
+    }
+
+    #section-1 .block-1 h5 {
+        padding-left: 25%;
+    }
+}
+
+@media (min-width: 576px) {
+    .w-sm-75 {
+        width: 75%!important;
+    }
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i,800,800i');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #F5F5F5
+}
+.flat {
+    padding: 50px 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.flat-container {
+
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+    min-height: 40px;
+    max-width: 1080px;
+}
+
+.flat .flat-container {
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.flat h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.3em;
+    color: rgb(51, 51, 51);
+    margin-bottom: 0.75em;
+    margin-top: 0;
+}
+.flat h3{
+   font-size: 18px;
+   color:#3f3f3f;
+   font-weight: 700;
+   line-height: 27px;
+}
+.flat .cotact-form{
+    margin-top:5em;
+    margin-bottom:5em;
+}
+.flat p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: rgb(63, 63, 63);
+    margin-bottom: 1.5em;
+}
+.flat ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: rgb(63, 63, 63);
+    margin-bottom: 10px;
+}
+.flat ul{
+    padding-left: 20px;
+    margin-bottom: 1.5em;
+}
+
+.flat .form-group {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.flat .form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.flat .form-group input,
+.flat .form-group textarea {
+    color: #666;
+    background: #fff;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    padding: 0.7em;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.flat .form-group input {
+    height: 45.5px;
+}
+
+.flat .btn-black{
+    background-color: #222;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    text-transform: capitalize
+}
+.flat .btn-black:hover{
+    background: #767676;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:1em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: rgb(148, 148, 148);
+}
+@media(max-width:767px){
+    .flat {
+        padding: 5px;
+    }
+    .flat .flat-container{
+        padding:18px;
+    }
+}
+@media(max-width:500px){
+    .flat p,.flat ul li{
+        font-size: 15px;
+    }
+}
