@@ -18,6 +18,9 @@ class PaymentController extends Controller {
         return view('details', $data);
     }
 
+    function open_thank_you_page(){
+        return view('second_thank_page');
+    }
     function addSubscription(Request $request) {
 
         $plan_name = "gloriousenlargement_monthly";
@@ -199,26 +202,7 @@ class PaymentController extends Controller {
         return view('terms');
     }
 
-    public function create_api_contact(){
-        $client = new Client();
-        //c74b6576fd766e48b908cd1b3d705ddd
-        /*   $api_url="https://apidocs.getresponse.com/v3/resources/contacts.get.all";
-         //  $api_url="https://apidocs.getresponse.com/v3/resources/contacts.create";
-           $client->setDefaultOption('X-Auth-Token', 'api-key jfgs8jh4ksg93ban9Dfgh8');
-           $res = $client->request('GET',$api_url);
-        */
-    /*    $client = new Client();
-        $response = $client->request('GET', 'https://api.getresponse.com/v3/campaigns');
-        $client->setDefaultOption('X-Auth-Token', 'api-key c74b6576fd766e48b908cd1b3d705ddd');
-        echo $response->getStatusCode(); # 200
-        echo $response->getBody(); # '{"id": 1420053, "name": "guzzle", ...}'
-      */
 
-        $url = "https://api.getresponse.com/v3/contacts";
-        $result=$this->get_api_data($url);
-        echo "<pre>";
-        print_r($result);die;
-    }
 
     public function get_api_data($url){
 
