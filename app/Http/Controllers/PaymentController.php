@@ -67,7 +67,7 @@ class PaymentController extends Controller {
 
 
                 Session::flash('success', 'Charged successfully');
-                return Redirect::route("thank-you-downloadyourbook");
+                return Redirect('https://gloriousenlargement.com/specialgift');
             } catch (\Stripe\Error\Card $e) {
                 Session::flash('error', $e->getMessage());
                 return Redirect::to(URL::previous());
