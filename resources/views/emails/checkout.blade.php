@@ -20,7 +20,7 @@
 
     	<body style="background: #eee; padding-top: 25px">
 
-    		<center><img src="https://gloriousenlargement.com/assets/images/LOGO.jpg" style="height: 100px"></center>
+    		<center><img src="http://gloriousenlargement.com/assets/images/logo-extra.gif" style="height: 100px"></center>
 
 
 
