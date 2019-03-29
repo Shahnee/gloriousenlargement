@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use GuzzleHttp\Client;
+use App\Mail\CheckoutEmail; 
+use Mail; 
+
 class PaymentController extends Controller {
 
     function subscription() {
@@ -19,6 +22,10 @@ class PaymentController extends Controller {
         return view('second_thank_page');
     }
     function addSubscription(Request $request) {
+
+
+       
+
         $plan_name = "gloriousenlargement_monthly";
         $add_user = User::where('email', $request->email)->first();
         if (!$add_user) {
@@ -55,6 +62,10 @@ class PaymentController extends Controller {
                 ]);
                 $add_user->stripe_id = $cus->id;
                 $add_user->save();
+
+                 Mail::to($request->email)->send(new CheckoutEmail());
+
+
                 Session::flash('success', 'Charged successfully');
                 return Redirect::route("thank-you-downloadyourbook");
             } catch (\Stripe\Error\Card $e) {
