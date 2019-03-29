@@ -16,9 +16,15 @@ class CheckoutEmail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $name; 
+    public $email;
+    public $link; 
+
+    public function __construct($name = '', $link='link')
     {
         //
+        $this->name = $name;
+        $this->link = $link; 
     }
 
     /**

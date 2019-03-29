@@ -20,9 +20,6 @@ class PaymentController extends Controller {
 
     function addSubscription(Request $request) {
 
-
-       
-
         $plan_name = "gloriousenlargement_monthly";
         $add_user = User::where('email', $request->email)->first();
         if (!$add_user) {
@@ -60,8 +57,10 @@ class PaymentController extends Controller {
                 $add_user->stripe_id = $cus->id;
                 $add_user->save();
 
-                 Mail::to($request->email)->send(new CheckoutEmail());
 
+                //This is where the mail is sent
+
+                 Mail::to($request->email)->send(new CheckoutEmail( $add_user->name ));
 
                 Session::flash('success', 'Charged successfully');
                 return Redirect::route("thank-you-downloadyourbook");

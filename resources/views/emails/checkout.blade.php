@@ -4,6 +4,19 @@
     		<meta charset="utf-8">
     	</head>
 
+    <style>
+        .btn{
+                 background-color: #4d90fe; /* Green */
+                  border: none;
+                  color: white;
+                  padding: 5px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+            }
+        }
+    </style>
 
     	<body style="background: #eee; padding-top: 25px">
 
@@ -13,36 +26,28 @@
 
 
     <div style="margin: 10%; padding:5%;background: white; margin-top: 3%">
-   		<h2>Invoice</h2>
+   		Dear <b>{{$name}}</b>,
 
-    	<p> Your Account : <b> XXXXX </b></p>
-    	<p> Billing date : <b> {{date('F d, Y')}} </b>
-    	</p>
+        <p> Thank you for your purchase of Glorious Enlargement Program. </p>
 
-    	<hr> 
+        <p> To download your program please follow the button below. </p>
 
-    	<h2> Thank you for your business, </h2>
+        <p><center> <a href='{{$link}}' class="btn" style="background-color: #4d90fe; /* Green */
+                  border: none;
+                  color: white;
+                  padding: 10px 12px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;" >Download Your Program </a> </p>
+ 
+        <p> If you need any help don't hesitate to reach out to us at anytime. </p>
 
-    	The credit card ending in XXXX has benn successfully charged $XXX.X. A copy of this receipt is also in your <b>Billing Statements</b>
-
-    	If you have any questions, please let us know. We'll get back to you as soon as we can. 
-
-    	<br>
-    	Your friends, 
-    	<br>
-    	<a href='billing@'>billing@xxx.com</a>
-
-    	<hr> 
-
-    	<h2> Subscription </h2>
-
-    	For the upcoming year, beginning August XX, XXXX
-
-    	<br> 
-
-    	40 Plan [annual] - $XXX.XX
-
-    	20% annual discount(annual) - $XX.XX
+        
+        <p>
+                Kind regards,
+        <br>    Ctrlbill Support
+        </p>
 
     </div>
 
