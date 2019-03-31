@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NN7PSJQ');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
@@ -60,7 +67,13 @@
 
 </head>
 <body class="page-template-default page page-id-243 wp-embed-responsive tve_lp" style="" data-css="tve-u-15e09c94f7d">
+<!-- Offer Conversion: Glorious Enlargement Program -->
+<img src="https://sgacash.go2cloud.org/aff_l?offer_id=5" width="1" height="1" />
+<!-- // End Offer Conversion -->
 <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN7PSJQ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <div class="wrp cnt bSe" style="display: none">
     <div class="awr"></div>
@@ -86,7 +99,7 @@
     <img class="tve_image wp-image-245" alt="" width="1000" height="1369" title="beast101" data-id="245"
          src="/assets/images/beast101.jpg" style="width: 100%;" ,  sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /></span></div>
                                         <div class="thrv_wrapper thrv_text_element" data-css="tve-u-169bf8bca22"><p style="text-align: center;">
-                                                <a href="/assets/books/Beast 101_2.pdf" >Click here to download your book</a></p></div></div>
+                                                <a href="/assets/books/Beast 101_2.pdf" target="_blank">Click here to download your book</a></p></div></div>
                                 </div><div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box" data-css="tve-u-169bf8bca25">
                                     <div class="tve-content-box-background" data-css="tve-u-169bf8bca27"></div>
                                     <div class="tve-cb"><div class="thrv_wrapper thrv_text_element" data-css="tve-u-169bf8bca26"><p style="text-align: center;">
@@ -98,7 +111,7 @@
                                             <p style="text-align: center;">
 
 
-                                                <a href="/assets/books/Herbal Enlargement Shake.pdf"  >Click here to download your book</a>
+                                                <a href="/assets/books/Herbal Enlargement Shake.pdf" target="_blank" >Click here to download your book</a>
 
 
 
@@ -111,7 +124,7 @@
 		<span class="tve_image_frame" style="width: 100%;">
 			<img class="tve_image wp-image-247" alt="" width="1000" height="1369" title="THE MANHOOD SWITCH" data-id="247" src="/assets/images/THE-MANHOOD-SWITCH.jpg" style="width: 100%;"  sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />
 		</span></div><div class="thrv_wrapper thrv_text_element" data-css="tve-u-169bf8bca22"><p style="text-align: center;">
-                                                <a href="/assets/books/The Manhood Switch.pdf" >Click here to download your book</a></p>
+                                                <a href="/assets/books/The Manhood Switch.pdf" target="_blank" >Click here to download your book</a></p>
                                         </div></div>
                                 </div><div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box" data-css="tve-u-169bf8bca25">
                                     <div class="tve-content-box-background" data-css="tve-u-169bf8bca27"></div>
@@ -121,7 +134,7 @@
             <span class="tve_image_frame" style="width: 100%;">
             <img class="tve_image wp-image-248" alt="" width="1000" height="1369" title="rock hard sex"
                  data-id="248" src="/assets/images/rock-hard-sex.jpg" style="width: 100%;"  sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />
-            </span></div><div class="thrv_wrapper thrv_text_element" data-css="tve-u-169bf8bca22"><p style="text-align: center;"><a href="/assets/books/Rock Hard Sex_2.pdf"  >Click here to download your book</a></p></div></div>
+            </span></div><div class="thrv_wrapper thrv_text_element" data-css="tve-u-169bf8bca22"><p style="text-align: center;"><a href="/assets/books/Rock Hard Sex_2.pdf" target="_blank" >Click here to download your book</a></p></div></div>
                                 </div></div>
                         </div></div>
                 </div></div></div>	</div>
